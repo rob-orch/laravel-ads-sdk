@@ -125,6 +125,22 @@ class Service
     }
 
     /**
+     * useSandbox()
+     * 
+     * Use the Bing Ads Sandbox to test the API
+     * 
+     * @return self
+     */
+    public function useSandbox()
+    {
+        $this->environment = ApiEnvironment::Sandbox;
+        $this->customerId = 'BBD37VB98';
+        $this->clientId = 'db41b09d-6e50-4f4a-90ac-5a99caefb52f';
+
+        return $this;
+    }
+
+    /**
      * fetch()
      *
      *
