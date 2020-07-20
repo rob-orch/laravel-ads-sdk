@@ -26,4 +26,4 @@ Use `https://login.microsoftonline.com/common/oauth2/nativeclient` for the Redir
 
 ## Sandbox
 
-The [Bing Ads API Sandbox](https://docs.microsoft.com/en-us/advertising/guides/sandbox?view=bingads-13) can be used by changing the API environment using the `->setEnvironment()` function.
+You can switch to the [Bing Ads API Sandbox](https://docs.microsoft.com/en-us/advertising/guides/sandbox?view=bingads-13) by executing the `->useSandbox()` method.
