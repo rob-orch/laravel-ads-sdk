@@ -16,6 +16,7 @@ $bingAds = LaravelAds::bingAds()->with('ACCOUNT_ID');
 |---|---|
 |`with(ACCOUNT_ID)`|**(Required)** – This is your "Account Id" (not account number)
 |`withCustomerId(CUSTOMER_ID)`|**(Optional)** – Some requests might require your customer id
+|`useSandbox()`|**(Optional)** – Switch to the Bing Ads API Sandbox
 
 
 #### Management
